@@ -1,0 +1,22 @@
+.item-list-element{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btn-warning{
+    margin-right: 10px;
+}
+
+.item-list-element-label{
+    cursor: pointer;
+}
+
+.item-list-element.done .item-list-element-label{
+    text-decoration: line-through;
+}
+
+.item-list-element.important .item-list-element-label{
+    font-weight: bold;
+    color: rgb(120, 120, 232);
+}
